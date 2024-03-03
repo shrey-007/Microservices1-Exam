@@ -25,7 +25,7 @@ public class SubjectServiceImpl implements SubjectService {
 
     @Override
     public Subject getSubject(String subjectId) {
-        return subjectRepository.getById(subjectId);
+        return subjectRepository.getBySubjectId(subjectId);
     }
 
 }
